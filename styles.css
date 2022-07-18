@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+}
+.portada_title{
+    color: #555;
+}
+
+.navcolor {
+    background-color: rgb(61, 23, 87);
+}
+
+
+
+.navcolor li a{
+    color: white;
+}
+
+.portada{
+    height: 400px;
+    width: 100%;
+    background-image: url(/img/portada3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: violet;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.portada h1 {
+    color: white;
+    text-shadow:  2px 2px black;
+    background-color: rgba(17, 17, 17, 0.178);
+    padding: 10px 30px;
+    font-size: 36px;
+}
+
+.trabajo {
+    background-color: rgba(141, 143, 142, 0.089);
+    padding: 60px;
+    border-radius:10px 10px 80px 10px;
+}
+
+
+
+footer {
+    background-color: rgb(61, 23, 87);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 249, 249);
+    margin: auto;
+    width: 100%;
+}
+
+footer a {
+    text-decoration: none;
+    color: pink;
+    margin-top: 0px;
+}
+
+footer a:hover{
+    color: rgb(252, 162, 177);
+}
