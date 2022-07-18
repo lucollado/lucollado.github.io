@@ -20,7 +20,7 @@ body {
 .portada{
     height: 400px;
     width: 100%;
-    background-image: url(/img/portada3.png);
+    background-image: url(portada3.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: violet;
